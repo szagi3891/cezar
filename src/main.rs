@@ -5,7 +5,7 @@ fn main() {
     let alfabet: Vec<char> = vec!(
         'a', 'ą', 'b', 'c', 'ć',
         'd', 'e', 'ę', 'f', 'g',
-        'h', 'i', 'j', 'k', 'l',
+        'h', 'i', 'j', 'k', 'l', 'ł',
         'm', 'n', 'ń', 'o', 'ó',
         'p', 'r', 's', 'ś', 't',
         'u', 'w', 'y', 'z', 'ź',
@@ -109,11 +109,14 @@ fn main() {
     println!("");
     println!("");
 
-    encodeBlockAndPrint("idź spać");
+    //encodeBlockAndPrint("idź spać");
 
-    encodeBlockAndPrint("mamy dzisiaj bardzo deszczową pogodę");
+    encodeBlockAndPrint("szafka na buty");
 
-    decodeBlockAndPrint("nrkcoęlh");
+
+    //encodeBlockAndPrint("");
+
+    //decodeBlockAndPrint("nrkcoęlh");
     // for textChar in textIn.chars() {
 
     //     let a: char = textChar;
